@@ -1,4 +1,6 @@
-<h1 align="center">PokeDex</h1>
+
+![image](https://github.com/matheusesdev/Pokedex/assets/144345022/aa8a9a31-41b0-4bdc-a36e-9cb01c6c9d31)
+
 
 <p align="center">
   <a href="https://brunodorea.github.io/dio-pokedex/" target="_blank">🔗 Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
