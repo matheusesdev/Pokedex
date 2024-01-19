@@ -7,13 +7,9 @@
   <a href="#-license">📝 License</a>
 </p>
 
-<p align="center">
-<a href="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/b8b0b63f-fb44-4dea-9f57-42644c4a0cb0"><img src="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/b8b0b63f-fb44-4dea-9f57-42644c4a0cb0.svg" alt="wakatime"></a>
-</p>
-
 ## 💻 Projeto
 
-Repositorio do projeto "Construindo uma Pokédex com JavaScript" da DIO.
+Repositório do Projeto "Criando um Projeto com HTML/CSS para Listagem de Pokémon", durante o "Bootcamp Coding The Future Banco PAN - Desenvolvimento Frontend com Angular". Fornecido pela Digital Innovation One.
 
 ## 🚀 Tecnologias
 
@@ -24,8 +20,3 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - PokeAPI
 
-## 📝 License
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
