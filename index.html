@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokedex</title>
 
@@ -13,7 +14,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
+    <script
+      src="https://kit.fontawesome.com/c3ef53a0a4.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Font Roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,115 +26,26 @@
       rel="stylesheet"
     />
 
-    <!-- CSS do Projeto -->
-    <link rel="stylesheet" href="./assets/css/global.css" />
-    <link rel="stylesheet" href="./assets/css/pokedex.css" />
-    >
+    <!-- Nosso CSS -->
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="stylesheet" href="/assets/css/pokedex.css" />
   </head>
 
   <body>
     <section class="content">
-      <h1>Pokedex</h1>
-
-      <ol class="pokemons">
-        <li class="pokemon">
-          <span class="number">#001</span>
-          <span class="name">Bulbasaur</span>
-          <div class="detail">
-            <ol class="types">
-              <li class="type">Grass</li>
-              <li class="type">Poison</li>
-            </ol>
-            <img
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
-              alt="Bulbasaur"
-            />
-          </div>
-        </li>
-      </ol>
-      <ol class="pokemons">
-        <li class="pokemon">
-          <span class="number">#002</span>
-          <span class="name">Ivysaur</span>
-          <div class="detail">
-            <ol class="types">
-              <li class="type">Grass</li>
-              <li class="type">Poison</li>
-            </ol>
-            <img
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/2.svg"
-              alt="Ivysaur"
-            />
-          </div>
-        </li>
-      </ol>
-      <ol class="pokemons">
-        <li class="pokemon">
-          <span class="number">#003</span>
-          <span class="name">Venusaur</span>
-          <div class="detail">
-            <ol class="types">
-              <li class="type">Grass</li>
-              <li class="type">Poison</li>
-            </ol>
-            <img
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/3.svg"
-              alt="Venusaur"
-            />
-          </div>
-        </li>
-      </ol>
-      <ol class="pokemons">
-        <li class="pokemon">
-          <span class="number">#004</span>
-          <span class="name">Charmander</span>
-          <div class="detail">
-            <ol class="types">
-              <li class="type">Grass</li>
-              <li class="type">Poison</li>
-            </ol>
-            <img
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/4.svg"
-              alt="Charmander"
-            />
-          </div>
-        </li>
-      </ol>
-      <ol class="pokemons">
-        <li class="pokemon">
-          <span class="number">#005</span>
-          <span class="name">Charmeleon</span>
-          <div class="detail">
-            <ol class="types">
-              <li class="type">Grass</li>
-              <li class="type">Poison</li>
-            </ol>
-            <img
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/5.svg"
-              alt="Charmeleon"
-            />
-          </div>
-        </li>
-      </ol>
-      <ol class="pokemons">
-        <li class="pokemon">
-          <span class="number">#006</span>
-          <span class="name">Charizard</span>
-          <div class="detail">
-            <ol class="types">
-              <li class="type">Grass</li>
-              <li class="type">Poison</li>
-            </ol>
-            <img
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/6.svg"
-              alt="Charizard"
-            />
-          </div>
-        </li>
-      </ol>
+      <div class="titulo">
+        <img src="./assets/pokebola.png" alt="Imagem da Pokebola" />
+        <h1>PokeDex</h1>
+      </div>
+      <ol id="pokemonList" class="pokemons"></ol>
+      <div class="pagination">
+        <button id="loadMoreButton" type="button">Load More</button>
+      </div>
     </section>
 
-    <!-- JavaScript do Projeto -->
-    <script src="./assets/js/main.js"></script>
+    <!-- JavaScript -->
+    <script src="/assets/js/pokemon_model.js"></script>
+    <script src="/assets/js/poke_api.js"></script>
+    <script src="/assets/js/main.js"></script>
   </body>
 </html>
